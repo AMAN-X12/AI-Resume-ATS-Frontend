@@ -33,7 +33,7 @@ from resume_filtering.services.similarityChecking import (
 
 
 load_dotenv()
-uri= os.getenv("MONGO-KEY")
+uri= os.getenv("MONGO_URI")
 
 client= MongoClient(uri)
 db = client.resume_reviewer
