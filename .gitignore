@@ -1,0 +1,15 @@
+.env
+*.env
+__pycache__/
+*.py[cod]
+*$py.class
+tests/
+.vscode/
+.idea/
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+*.log
+*.sqlite3
+*.pdf

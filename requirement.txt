@@ -1,0 +1,15 @@
+pymupdf
+fastapi
+uvicorn[standard]
+python-multipart
+sentence-transformers
+spacy
+langchain-core
+gensim
+scikit-learn
+nltk
+pillow
+pytesseract
+openpyxl
+pymongo
+
