@@ -2,7 +2,9 @@ An AI-based Applicant Tracking System (ATS) backend that processes, parses, and 
 
 This repository contains the FastAPI server, MongoDB data management (using session IDs to keep candidate data secure and isolated during API calls), and the Dockerized AI pipeline. It is designed to make resume screening effortless for HR teams and industries by using AI to generate clear, detailed candidate evaluations.
 
- This backend is highly decoupled from the frontend. You can find the frontend interface in the repository "AI Resume-ATS Frontend".Additionaly Documentation Strings (DOC Strings) are also provided in functions where i think there's a need. 
+ This backend is highly decoupled from the frontend. You can find the frontend interface in the repository "AI Resume Frontend".Additionaly Documentation Strings (DOC Strings) are also provided in functions where i think there's a need. 
+
+ For the live demo , kindly do visit the "AI Resume Frontend" repository you will gonna find the link of live demo there.
 
 ##  Features & Output
 The API returns real-time JSON data for the UI (Name, Email, Skill Score, Experience Score, Weighted Score) and dynamically generates a highly detailed Excel report.
