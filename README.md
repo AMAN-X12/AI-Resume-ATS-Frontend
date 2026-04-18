@@ -1,13 +1,5 @@
 
----
-title: AI Resume Screener
-emoji: ⚡
-colorFrom: purple
-colorTo: green
-sdk: docker
-pinned: false
-license: mit
----
+
 An AI-based Applicant Tracking System (ATS) backend that processes, parses, and scores candidate resumes against job requirements using Natural Language Processing (NLP) and vector embeddings.
 
 This repository contains the FastAPI server, MongoDB data management (using session IDs to keep candidate data secure and isolated during API calls), and the Dockerized AI pipeline. It is designed to make resume screening effortless for HR teams and industries by using AI to generate clear, detailed candidate evaluations.
